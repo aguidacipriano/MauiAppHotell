@@ -8,6 +8,3 @@ O aplicativo simula um sistema simples de hospedagem de hotel com navegação en
 - C#
 - .NET MAUI
 - XAML
-
-## Desenvolvido por
-Aguida Cipriano
