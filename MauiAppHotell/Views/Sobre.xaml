@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotell.Views.Sobre"
+             Title="Sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#F2F2F2">
+
+    <VerticalStackLayout Padding="25,60,25,25"
+               Spacing="20">
+
+        <Frame Padding="20"
+               CornerRadius="20"
+               BackgroundColor="#1E3A8A"
+               HasShadow="True">
+
+    <VerticalStackLayout Spacing="15">
+
+         <Label
+             Text="Sobre o Aplicativo"
+             FontFamily="Exo2Extralight"
+             TextColor="AliceBlue"
+             FontSize="30"
+             HorizontalOptions="Center"/>
+
+     </VerticalStackLayout>
+            
+         </Frame>
+
+        <BoxView
+            HeightRequest="2"
+            BackgroundColor="Gray"/>
+
+        <Label
+            Text="Aplicativo desenvolvido em .NET MAUI."
+            FontFamily="Exo2Regular"
+            FontSize="18"/>
+
+        <Label
+            Text="Projeto acadêmico da disciplina de Desenvolvimento Mobile."
+            FontFamily="Exo2Regular"
+            FontSize="18"/>
+
+        <Label
+            Text="Desenvolvido por Aguida - 2026."
+            FontFamily="Exo2Regular"
+            FontSize="18"/>
+
+
+        <Button Text="Voltar"
+                        Clicked="OnVoltarClicked"
+                        BackgroundColor="#1E3A8A"
+                        TextColor="White"
+                        CornerRadius="12"
+                        WidthRequest="120"/>
+
+    </VerticalStackLayout>
+</ContentPage>
